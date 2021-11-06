@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="home/css.css" />
+  </head>
+  <body>
+    <div class="home">
+      <h1>Tahaluf examination system.</h1>
+      <i class="fas fa-chevron-circle-down" id="home__icon"></i>
+    </div>
+
+    <div class="exams">
+      <h2>Choose an Exam</h2>
+      <a href="exams/exam1.html"
+        >Exam 1 - General Exam <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="exams/exam2.html"
+        >Exam 2 - C# Exam <i class="fas fa-external-link-alt"></i
+      ></a>
+      <a href="exams/exam3.html"
+        >Exam 3 - C# OOP Exam <i class="fas fa-external-link-alt"></i
+      ></a>
+      <a href="exams/exam4.html"
+        >Exam 4 - SQL Exam <i class="fas fa-external-link-alt"></i
+      ></a>
+      <a href="exams/exam5.html"
+        >Exam 5 - HTML, CSS Exam <i class="fas fa-external-link-alt"></i
+      ></a>
+    </div>
+
+    <script>
+      document
+        .querySelector(".fa-chevron-circle-down")
+        .addEventListener("click", () => {
+          document.documentElement.scrollTop =
+            document.querySelector(".home").offsetHeight;
+        });
+    </script>
+  </body>
+</html>
