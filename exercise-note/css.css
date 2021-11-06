@@ -277,7 +277,7 @@ body.active {
 
 .footer {
   background: #fcf8ff;
-  padding: 0 10px;
+  padding: 60px 10px;
 }
 .f__content {
   width: 100%;
@@ -296,9 +296,9 @@ body.active {
 .footer p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
   color: #777777;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .f__about {
   width: 40%;

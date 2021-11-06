@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  height: inherit;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 3vw;
+  flex-wrap: wrap;
+}
+.fa-chevron-circle-down {
+  display: block;
+  width: 100%;
+  align-self: flex-start;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/*  */
+.contact {
+  padding: 60px 0;
+  background: #ededed;
+}
+.contact__title {
+  text-align: center;
+}
+.contact .wrapper {
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+}
+.form-group label {
+  display: block;
+  margin: 2rem 0 0.5rem 0;
+  font-size: 16px;
+}
+.form-group input {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.form-group input {
+  height: 50px;
+}
+
+.submit {
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  background: #0c9;
+  cursor: pointer;
+  transition: all 0.15s;
+  border-radius: 4px;
+  color: #fff;
+}
+.contact i {
+  margin-right: 0.5rem;
+}
+
+.form-group input:focus {
+  border: 1px solid #0c9;
+  box-shadow: 0 0 0px 5px rgba(0, 204, 153, 0.349);
+}
+
+.form-group.bachelors input {
+  border: 1px dashed #000;
+  padding: 10px;
+  cursor: pointer;
+}
+.form-group.bachelors input:focus {
+  border-bottom: 3px solid #0c9;
+}
+input[type="date"] {
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+}

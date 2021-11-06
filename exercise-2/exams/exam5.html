@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Question is loading...</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="a_text">Answer...</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="b_text">Answer...</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="c_text">Answer...</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="d_text">Answer...</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+
+    <script>
+      const quizData = [
+        {
+          question:
+            "Which tag contains all the contents of an HTML document you can see?",
+          a: "<body>",
+          b: "<head>",
+          c: "<html>",
+          d: "<div>",
+          correct: "a",
+        },
+        {
+          question:
+            "The HTML code for adding a picture begins with the ___________ element?",
+          a: "src",
+          b: "img",
+          c: "href",
+          d: "png",
+          correct: "b",
+        },
+        {
+          question: "Which is the value in this CSS rule? p {color: red;}",
+          a: "p",
+          b: "red",
+          c: "color ",
+          d: "{}",
+          correct: "b",
+        },
+        {
+          question: " What is the difference between HTML and CSS?",
+          a: "CSS is one type of HTML",
+          b: "There is no difference",
+          c: "HTML gives a webpage structure. CSS provides styling",
+          d: "CSS structures a webpage. HTML strictly provides styling.",
+          correct: "c",
+        },
+      ];
+    </script>
+    <script src="js.js"></script>
+  </body>
+</html>
