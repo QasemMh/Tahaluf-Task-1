@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+  <body>
+    <!--  -->
+    <h2>Basic Exam</h2>
+
+    <div class="main-body">
+      <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h3 id="question">Question is loading...</h3>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer" />
+              <label for="a" id="a_text">Answer...</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="b" class="answer" />
+              <label for="b" id="b_text">Answer...</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="c" class="answer" />
+              <label for="c" id="c_text">Answer...</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="d" class="answer" />
+              <label for="d" id="d_text">Answer...</label>
+            </li>
+          </ul>
+        </div>
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+    <script>
+      let quizData = [
+        {
+          question: "How much is 24 + 2?",
+          a: "26",
+          b: "30",
+          c: "22",
+          d: "48",
+          correct: "a",
+        },
+        {
+          question: "How much is 24 - 2?",
+          a: "26",
+          b: "30",
+          c: "22",
+          d: "48",
+          correct: "c",
+        },
+        {
+          question: "What number should be added to 60 to get 100 as a sum?",
+          a: "40",
+          b: "60",
+          c: "44",
+          d: "50",
+          correct: "a",
+        },
+        {
+          question: "How many days and hours are equal to 200 hours?",
+          a: "20 days and 20 hours",
+          b: "8 days and 8 hours",
+          c: "9 days and 10 hours",
+          d: "10 days and 20 hours",
+          correct: "b",
+        },
+        {
+          question: "The opposite of 6 is?",
+          a: "36",
+          b: "5",
+          c: "7",
+          d: "-6",
+          correct: "d",
+        },
+      ];
+    </script>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>

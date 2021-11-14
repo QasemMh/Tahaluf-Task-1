@@ -1,0 +1,18 @@
+/*  */
+
+body {
+  background: rgba(238, 238, 238, 0.445);
+}
+.login {
+  width: 400px;
+  max-width: 98vw;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+}
+form {
+  padding: 20px;
+}
